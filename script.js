@@ -10,7 +10,7 @@ function calculate () {
     document.getElementById('textbox').innerHTML = 'You have a break!'
   } else if (userage > 18) {
     document.getElementById('textbox').innerHTML = 'You have to go to work!'
-  } else if (userage <18) {
+  } else if (userage < 18) {
     document.getElementById('textbox').innerHTML = 'You have to go to school!'
   }
 }
